@@ -77,7 +77,7 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/churn-prediction.git
+   git clone https://github.com/spicyneutrino/Customer-Churn-Prediction.git
    cd churn-prediction
 
 2. Install the necessary dependencies:
