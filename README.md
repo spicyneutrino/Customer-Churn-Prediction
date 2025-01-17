@@ -5,6 +5,7 @@ This repository contains the implementation of a **customer churn prediction cla
 The dataset used in this project is from Kaggle: [Telco Customer Churn IBM Dataset](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset).
 
 ## Table of Contents
+
 - [Customer Churn Prediction](#customer-churn-prediction)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
@@ -19,7 +20,7 @@ The dataset used in this project is from Kaggle: [Telco Customer Churn IBM Datas
 
 ## Introduction
 
-Customer churn prediction is crucial for businesses to anticipate which customers are likely to leave and take action to retain them. This project uses a publicly available dataset of customer information, including demographic and service-related features, to predict churn. 
+Customer churn prediction is crucial for businesses to anticipate which customers are likely to leave and take action to retain them. This project uses a publicly available dataset of customer information, including demographic and service-related features, to predict churn.
 
 The model is trained and evaluated using classification techniques, with a focus on addressing data imbalance, improving performance, and optimizing hyperparameters for the best results.
 
@@ -76,11 +77,13 @@ GridSearchCV is used to find the best hyperparameters for each model. The follow
 To run the project locally, follow these steps:
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/spicyneutrino/Customer-Churn-Prediction.git
+   git clone https://github.com/yourusername/churn-prediction.git
    cd churn-prediction
 
 2. Install the necessary dependencies:
+
     ```bash
    pip install -r requirements.txt
 
